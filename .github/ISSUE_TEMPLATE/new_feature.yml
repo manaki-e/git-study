@@ -1,0 +1,29 @@
+# new_feature.yml
+name: 新機能追加
+description: 新機能追加はこちら
+projects: "Peer Perk"
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 目的
+      description: |
+        issueの目的を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: 終了条件
+      description: issueの終了条件を記載してください。
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false
+  - type: textarea
+    id: supplement
+    attributes:
+      label: その他
